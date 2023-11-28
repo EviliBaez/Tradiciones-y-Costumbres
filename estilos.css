@@ -59,11 +59,6 @@ body{
     padding: 0;
 }
 
-.container-fluid{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
 /*MENÚS*/
 .navbar{
     background-image: linear-gradient(to top, #293241a1 0%, #98C1D9 100%);
@@ -106,16 +101,115 @@ body{
     text-align: justify;
 }
 
-.txt-izq{
-    margin-left: 10px;
+.txt-izq {
+    margin-left: 100px !important;
 }
+
+.blockquote{
+    margin-left: 100px !important;
+}
+
 .texto{
-    margin-right: 60px;
-    margin-left: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
     text-align: justify;
 }
 
 .table{
     text-align: justify;
-    margin-bottom: 40px !important;
+    margin-bottom: 25px !important;
+    margin-left: 50px;
+    margin-right: 50px !important;
+    margin-top: 40px;
+}
+
+/*.imagenes1{
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+.imagenes1 img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+.imagenes1 img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}*/
+
+.imagenes1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 32px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.imagenes1 img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.imagenes2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 32px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.imagenes2 img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.imagenes3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 32px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.imagenes3 img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.imagenes4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 32px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.imagenes4 img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.imagenes5{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 32px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.imagenes5 img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 20px #000;
 }
